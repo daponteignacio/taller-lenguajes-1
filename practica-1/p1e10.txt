@@ -1,0 +1,12 @@
+10. Indique detalladamente la estructura de control for de C. Indique cual es la finalidad de cada parte, si es opcional u obligatoria y en que parte del bloque for se ejecuta/evalua cada una.
+
+
+for ( i = 0; i < 50; i++ ) {
+    code...
+}
+
+Paso 0: Se define el valor inicial del valor iterador ( i = 0 ).
+Paso 1: Se valida la condición del for (en este caso 'i < 50'). Si la condicion es falsa, sale del for y sigue con el programa.
+Paso 2: Si la condición es verdadera, ejecuta el cuerpo del for.
+Paso 3: Una vez terminada la ejecución del cuerpo del for, se modifica el indice (i++ en este caso)
+Paso 4: Volver al paso 1
